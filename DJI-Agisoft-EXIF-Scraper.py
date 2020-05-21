@@ -41,7 +41,7 @@ def read_EXIF(path_to_images, path_to_output):
     Returns
     -------
     result : string
-        path to .csv file
+        path to .csv file with extracted EXIF data
     """
     #create empty dataframe with column headings
     df = pd.DataFrame(columns = ['Image ID', 'GPSLatitude', 'GPSLongitude', 'GPSAltitude', 'Pitch', 'Roll', 'Yaw'])
