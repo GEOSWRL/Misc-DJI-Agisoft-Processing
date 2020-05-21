@@ -11,7 +11,7 @@ import exiftool
 """
 
 This program uses pyexiftool: http://smarnach.github.io/pyexiftool/ , which can be installed by running "pip install pyexiftool"
-in the IPython Console
+in the IPython Console (if using Spyder IDE)
 
 Since pyexiftool is a Python wrapper for the Exiftool software (command line application written in Perl), we also need to install
 Exiftool. Download the application (https://exiftool.org/), and set the EXIFTOOL_PATH variable in this file to the path to your
