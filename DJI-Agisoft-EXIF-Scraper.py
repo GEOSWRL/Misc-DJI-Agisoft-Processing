@@ -28,7 +28,7 @@ output_directory = ''
 def read_EXIF(path_to_images, path_to_output):
     
     """
-    Reads EXIF data from DJI images and creates a text file with GPS fields for use in Agisoft
+    Extracts EXIF data from DJI images and saves to a .csv file for use in Agisoft
 
     Parameters
     ----------
