@@ -17,6 +17,10 @@ Since pyexiftool is a Python wrapper for the Exiftool software (command line app
 Exiftool. Download the application (https://exiftool.org/), and set the EXIFTOOL_PATH variable in this file to the path to your
 exiftool installation.
 
+Once you have set EXIFTOOL_PATH, image_directory, and output_directory, just press play. Remember paths must use forward slashes ///.
+
+All directory names must end in a forward slash.
+
 """
 #set path to exiftool application
 EXIFTOOL_PATH = ''
